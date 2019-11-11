@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <seed> 1 </seed>
+    <tick_period> 0.1 </tick_period>
+    <flash_key>d</flash_key>
+    <effects>
+	<Back 		period="200" 	period_sigma="50" 	duration="8" 	duration_sigma="0" 	reset_flag="mouseMoved"/>
+	<Dance 		period="40"	period_sigma="10" 	duration="2" 	duration_sigma="0" 	reset_flag=""/>
+	<Flash 		period="200" 	period_sigma="50" 	duration="0" 	duration_sigma="0" 	reset_flag=""/>
+	<LockOnAlly 	period="120" 	period_sigma="10" 	duration="2" 	duration_sigma="0" 	reset_flag=""/>
+	<LockView 	period="60" 	period_sigma="10" 	duration="30" 	duration_sigma="5" 	reset_flag=""/>
+	<Puke 		period="120" 	period_sigma="10" 	duration="2" 	duration_sigma="0" 	reset_flag=""/>
+	<RandomItem 	period="20" 	period_sigma="5" 	duration="0" 	duration_sigma="0" 	reset_flag=""/>
+	<RandomSpell 	period="30" 	period_sigma="10" 	duration="0" 	duration_sigma="0" 	reset_flag=""/>
+	<RemapSpells 	period="130" 	period_sigma="30" 	duration="20" 	duration_sigma="8" 	reset_flag=""/>
+	<RemapSummoners period="100" 	period_sigma="30" 	duration="30" 	duration_sigma="0" 	reset_flag=""/>
+	<SwapPlayers 	period="60" 	period_sigma="30" 	duration="0" 	duration_sigma="0" 	reset_flag=""/>
+	<Zoom 		period="60" 	period_sigma="20" 	duration="10" 	duration_sigma="2" 	reset_flag=""/>
+    </effects>
+</config>
